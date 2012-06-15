@@ -1,0 +1,10 @@
+
+1.
+<span><%= flash[:notice] %></span>
+2.
+
+<%= flash.each do |key,msg| %>
+<%= content_tag :div, msg, :id => key %>
+<% end %>
+
+3.

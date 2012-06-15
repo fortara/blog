@@ -1,6 +1,17 @@
 <h1>Upload#index</h1>
+<%= javascript_include_tag "application.js"%>
 <%= form_tag({:action => :upload}, :multipart => true) do %>
   <%= file_field_tag 'file' %>
-  <%= submit_tag('Upload') %>
+  <%= submit_tag('Read') %>
 <% end %>
+<!--
 <span><%= flash[:notice] %></span>
+-->
+<%= flash.each do |key,msg| %>
+<%= content_tag :div, msg, :id => key %>
+<% end %>
+
+
+<h2>AJAX</h2>
+<input type="button" onclick="loadXMLDoc()" value="Test1">
+<div id="myDiv"></div>

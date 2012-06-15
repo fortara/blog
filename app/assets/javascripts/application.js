@@ -33,6 +33,5 @@ xmlhttp.onreadystatechange=function()
   }
 xmlhttp.open("GET","/upload",true);
 xmlhttp.send();
-
 }
 
