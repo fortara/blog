@@ -1,0 +1,2 @@
+www.sohu.com,192.168.0.222,A
+www.sina.com.cn,192.168.2.123,PTR

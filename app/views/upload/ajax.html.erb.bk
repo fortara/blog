@@ -1,0 +1,4 @@
+<%= javascript_include_tag "prototype","effects" %>
+<h1>ajax test</h1>
+Click<%=link_to_remote("here",:complete=>"newEffect.Highlight('divHello')",:update=>"divHello",:url=>{:action=>"now"}) %> show time.
+<div id="divHello"></div>

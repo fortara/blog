@@ -1,0 +1,89 @@
+<form action="#">
+<h3>Ajax validation account </h3>
+<ul>
+	<li>Account:
+		<input type="text" name="uname" id="uname" onchange="startRequest()" />
+		<br/>
+		<span id="span" style="color:#FF0000"></span>
+	</li>
+	<li>Pass&nbsp; &nbsp; &nbsp;word:
+		<input type="password" name="upwd" id="upwd"/>
+	</li>
+	<li>
+		<input type="button" name="Reg" id="Reg" value="Registe"/>
+		&nbsp;&nbsp;
+		<input type="button" name="Log" id="Log" value="Log in"/>
+	</li>
+</ul>
+</form>
+
+<script language="javascript">
+	var xmlHttp;
+	function createXMLHttpRequest()
+	{
+		try
+		{
+			xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+		}
+		catch(e)
+		{
+			try
+			{
+				xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}		
+			catch(oc)
+			{
+				xmlHttp=null;
+			}
+		}
+		if(!xmlHttp && typeof XMLHttpRequest != "undefined")
+		{
+			xmlHttp=new XMLHttpRequest();
+		}
+		return xmlHttp;
+	}
+
+	function test()
+	{
+		alert("ok");
+	}
+
+
+	function startRequest()
+	{
+		var uname=document.getElementByID("uname").value;
+		if(uname!="")
+		{
+			createXMLHttpRequest();
+			var url="/home/checkusername?username="+uname;
+			xmlHttp.open("GET",url,true);
+			xmlHttp.onreadystatechange=handleStateChange;
+			xmlHttp.send(null);
+		}
+		else
+		{
+			document.getElementByID("span").innerHTML="Please fill in the account!";
+		}
+	}
+
+	function handleStateChange()
+	{
+alert("working");
+		if(xmlHttp.readyState<4)
+		{
+			span.innerHTML="getting data...";
+		}
+		if(xmlHttp.readyState==4)
+		{
+			if(xmlHttp.status==200)
+			{
+				span.innerHTML=xmlHttp.responseText;
+			}
+			else
+			{
+				alert("error,page abnormal!");
+			}
+	
+		}
+	}
+</script>
