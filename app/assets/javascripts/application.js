@@ -31,7 +31,12 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
     }
   }
-xmlhttp.open("GET","/upload",true);
+xmlhttp.open("GET","/uploads/test1.txt",true);
 xmlhttp.send();
+}
+
+function readfile()
+{
+setInterval("loadXMLDoc()",1000)
 }
 

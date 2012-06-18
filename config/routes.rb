@@ -1,4 +1,14 @@
 Blog::Application.routes.draw do
+  get "account/reg"
+
+  get "account/login"
+
+  get "nitro/index"
+
+  get "vmware/index"
+
+  get "infoblox/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

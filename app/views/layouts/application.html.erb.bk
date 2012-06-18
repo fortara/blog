@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body style="background: #EEEEEE;">
+
+<div id="wrap">
+  <div id="Top">
+    <A href="http://ndc-nagios1">ESM Infrastructure</A>
+    <A href="http://ndc-nagios1">ndc-nagios1</A>
+  </div>
+  <div id="s_head">
+    <div id="menu">
+      <ul id="menu_left">
+        <li id="m_01"><a href="ayu7-linux:3000/upload">Upload</a></li>
+        <li id="m_02"><a href="ayu7-linux:3000/Nitro">Nitro</a></li>
+        <li id="m_03"><a href="ayu7-linux:3000/VMware">VMware</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>

@@ -54,3 +54,100 @@ div {
   ul li {
     font-size: 12px;
     list-style: square; } }
+
+.mainarea {
+  margin: 0 10px;
+  width: 600px;
+  float: center;
+  text-align:left;
+}
+
+.block {
+  margin: 0 0 6px;
+  border: 1px solid #DFDFDF;
+  background: #FFF;
+}
+
+.block h3 {
+  margin: 1px 0 0;
+  font-size: 1em;
+  color: #08749d;
+  line-height: 26px;
+  padding-left: 0.5em;
+}
+
+.thumbmsglist {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.thumbmsglist li {
+  padding-left: 100px;
+  height: 100px;
+}
+
+.thumbmsglist li div {
+  float: left;
+  display: inline;
+  margin-left: -100px;
+  text-align: center;
+  border: 1px solid #DFDFDF;
+  padding: 5px;
+  width: 87px;
+  height: 87px;
+  position: relative;
+}
+
+.thumbmsglist li div img {
+  max-height: 75px;
+  max-width: 75px;
+  width: expression(this.width > 75 && this.height < this.width ? 75: true);
+  height: expression(this.height > 75 ? 75: true);
+}
+
+.thumbmsglist li p {
+  margin: 0px;
+}
+
+.thumbmsglist li p a {
+  color: #090 !important;
+}
+
+.thumbmsglist li em {
+  float: right;
+  font-style: normal;
+  margin-top: 6px;
+}
+
+.thumbmsglist li em strong {
+  color: #090;
+}
+
+.thumbmsglist li h4 {
+  margin: 0;
+  line-height: 26px;
+  height: 26px;
+  overflow: hidden;
+  font-size: 1em;
+  padding-left: 5px;
+}
+
+.msgintro {
+  background: #F5FBE4;
+  padding: 15px 5px 0;
+  height: 25px;
+  overflow: hidden;
+}
+
+.thumbmsglist .msginfo {
+  background: #F5FBE4;
+  padding: 5px 5px 10px;
+}
+
+.smalltxt {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+

@@ -1,0 +1,2 @@
+module InfobloxHelper
+end

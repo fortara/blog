@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+  <meta charset=UTF-8>
+  <title>PANGAEA</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body style="background: #EEEEEE;">
+<body>
+<div id="page">
+<header>
+  <img src="images/walmart.gif" width="180" height="80" alt="walmart" /> 
+  <img src="images/pangaea.jpg" width="120" height="80" alt="logo" /> 
+  <img src="images/bg_banner_grey.gif" width="980" height="5" alt="logo_banner" />
+</header>
 
-<%= yield %>
+<div id="content">
+  <div class="left">
+    <%= yield %>
+  </div>
+</div>
 
+<div id="sidebar">
+  <ul>
+  <li>
+  <h2>Menu </h2>
+  <ul>
+  <li><a href="http://ayu7-linux:3000/home">PANGAEA home</a></li>
+  <li><a href="http://ayu7-linux:3000/vmware">VMware</a></li> 
+  <li><a href="http://ayu7-linux:3000/nitro">Nitro</a></li>
+  <li><a href="http://ayu7-linux:3000/infoblox">Infoblox</a></li>
+  <li><a href="http://intra/Engineering/ESM/default.aspx">Visit ESM</a></li>
+  <li><a href="http://walmart.com/">Walmart.com</a></li>
+  <li><a href="http://ayu7-linux:3000/help">Help</a></li>
+  <li><a href="#">Contact us</a></li>
+  </ul>
+  </li>
+  </ul>
+  <br />
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+  <img src="images/bg_banner_grey.gif" width="980" height="5" alt="logo_banner" />
+<footer>
+<br />
+PANGAEA WALMART.com@2012 | <a href="http://www.ndc-nagios1" target="_blank">Design by ESM</a>
+</footer>
+</div>
+</div>
 </body>
+
+
 </html>
