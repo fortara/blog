@@ -1,16 +1,12 @@
-<div class="post">
-<h1>Upload a csv1 file to server</h1>
-<p>
+<h1>Upload#index</h1>
 <%= javascript_include_tag "application.js"%>
 <%= form_tag({:action => :upload}, :multipart => true) do %>
   <%= file_field_tag 'file' %>
   <%= submit_tag('Read') %>
 <% end %>
-</p>
-</div>
-<span><%= flash[:notice] %></span>
-
 <!--
+<span><%= flash[:notice] %></span>
+-->
 <%= flash.each do |key,msg| %>
 <%= content_tag :div, msg, :id => key %>
 <% end %>
@@ -19,4 +15,3 @@
 <h2>AJAX</h2>
 <input type="button" onclick="readfile()" value="Test1">
 <div id="myDiv"></div>
--->

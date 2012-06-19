@@ -1,0 +1,22 @@
+<div class="post">
+<!--
+<h1><%= flash[:notice] %></h1>
+-->
+<h1><%= @file %></h1>
+<p>
+<table border="1" cellpadding="2" cellspacing="0">
+  <tr>
+    <th>line</th>
+  </tr>
+
+<% @infoblox.each do |value| %>
+  <tr>
+    <td><%= value %></td>
+  </tr>
+<% end %>
+</table>
+</p>
+
+<p>
+</p>
+</div>
