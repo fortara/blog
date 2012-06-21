@@ -201,3 +201,8 @@ img {
         border:0;
         margin-top:.0em;
 }
+
+.button1, .button2 {float:right;background:url(images/button1_bg.gif) top repeat-x;font-size:16px;color:#fff;line-height:30px;text-decoration:none;text-transform:uppercase;font-weight:400;padding:0 20px;margin-left:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative}
+.button2 {background:url(images/button2_bg.gif) top repeat-x}
+.button1:hover {background:#202225}
+.button2:hover {background:#1f759b}

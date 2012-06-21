@@ -1,0 +1,3979 @@
+[2012-06-20 00:42:11] INFO  WEBrick 1.3.1
+[2012-06-20 00:42:11] INFO  ruby 1.9.2 (2012-04-20) [i686-linux]
+[2012-06-20 00:42:11] INFO  WEBrick::HTTPServer#start: pid=29220 port=3000
+=> Booting WEBrick
+=> Rails 3.2.3 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 172.29.104.43 at 2012-06-20 00:42:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 66ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /ajax.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /account.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /infoblox.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /nitro.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /upload.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /vmware.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /ajax.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /account.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /infoblox.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /nitro.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /vmware.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /upload.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 00:42:14 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /account.css - 200 OK (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /ajax.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /infoblox.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /nitro.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /upload.css - 200 OK (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /ajax.js - 200 OK (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /account.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /vmware.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /infoblox.js - 200 OK (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /nitro.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /upload.js - 200 OK (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /vmware.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:28:52 -0700
+Served asset /images/bullet.jpg - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home" for 172.29.105.18 at 2012-06-20 02:35:07 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:35:07 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/vmware" for 172.29.105.18 at 2012-06-20 02:35:09 -0700
+Processing by VmwareController#index as HTML
+  Rendered vmware/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:35:09 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/nitro" for 172.29.105.18 at 2012-06-20 02:35:10 -0700
+Processing by NitroController#index as HTML
+  Rendered nitro/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:35:10 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/upload" for 172.29.105.18 at 2012-06-20 02:35:11 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:35:11 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload" for 172.29.105.18 at 2012-06-20 02:35:14 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:35:14 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/infoblox" for 172.29.105.18 at 2012-06-20 02:36:17 -0700
+Processing by InfobloxController#index as HTML
+  Rendered infoblox/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:36:17 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload" for 172.29.105.18 at 2012-06-20 02:36:19 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:36:19 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.105.18 at 2012-06-20 02:36:37 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bX98K8VHJnDlICPSZ1OOltlS0hWNb98hew36vOuHJRo=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb680bb8 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-esoigf>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.105.18 at 2012-06-20 02:36:37 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:36:37 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/upload" for 172.29.105.18 at 2012-06-20 02:36:40 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 14ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.105.18 at 2012-06-20 02:36:40 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 02:37:26 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 02:37:31 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/nitro" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Processing by NitroController#index as HTML
+  Rendered nitro/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vmware" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Processing by VmwareController#index as HTML
+  Rendered vmware/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 02:37:35 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 02:37:37 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 172.29.246.80 at 2012-06-20 09:15:10 -0700
+Processing by HomeController#index as */*
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /ajax.css - 200 OK (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /infoblox.css - 200 OK (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /account.css - 200 OK (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /nitro.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /vmware.css - 200 OK (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /upload.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /account.js - 200 OK (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /infoblox.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /nitro.js - 200 OK (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /ajax.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /application.js - 200 OK (27ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /upload.js - 200 OK (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /vmware.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.246.80 at 2012-06-20 09:15:11 -0700
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:12 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home" for 172.29.246.80 at 2012-06-20 09:15:21 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:21 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/vmware" for 172.29.246.80 at 2012-06-20 09:15:22 -0700
+Processing by VmwareController#index as HTML
+  Rendered vmware/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:23 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/nitro" for 172.29.246.80 at 2012-06-20 09:15:26 -0700
+Processing by NitroController#index as HTML
+  Rendered nitro/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:26 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload" for 172.29.246.80 at 2012-06-20 09:15:27 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:28 -0700
+Served asset /images/bullet.jpg - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/infoblox" for 172.29.246.80 at 2012-06-20 09:15:30 -0700
+Processing by InfobloxController#index as HTML
+  Rendered infoblox/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:30 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/infoblox" for 172.29.246.80 at 2012-06-20 09:15:36 -0700
+Processing by InfobloxController#index as */*
+  Rendered infoblox/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:36 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/infoblox" for 172.29.246.80 at 2012-06-20 09:15:45 -0700
+Processing by InfobloxController#index as */*
+  Rendered infoblox/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:46 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/vmware" for 172.29.246.80 at 2012-06-20 09:15:50 -0700
+Processing by VmwareController#index as HTML
+  Rendered vmware/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:50 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home" for 172.29.246.80 at 2012-06-20 09:15:51 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:51 -0700
+Served asset /images/bullet.jpg - 404 Not Found (30ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/vmware" for 172.29.246.80 at 2012-06-20 09:15:53 -0700
+Processing by VmwareController#index as HTML
+  Rendered vmware/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:53 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/nitro" for 172.29.246.80 at 2012-06-20 09:15:59 -0700
+Processing by NitroController#index as HTML
+  Rendered nitro/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:15:59 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload" for 172.29.246.80 at 2012-06-20 09:16:00 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:16:00 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/infoblox" for 172.29.246.80 at 2012-06-20 09:16:02 -0700
+Processing by InfobloxController#index as HTML
+  Rendered infoblox/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:16:02 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/upload" for 172.29.246.80 at 2012-06-20 09:16:03 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.246.80 at 2012-06-20 09:16:03 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 18:13:26 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 18:15:01 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 19:15:34 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xaf39f1c @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-tg8fg>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 22:38:59 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 22:53:43 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xad09c38 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-17icjuy>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 22:53:43 -0700
+Processing by UploadController#show as HTML
+Completed 500 Internal Server Error in 30ms
+
+NameError (undefined local variable or method `arr' for #<UploadController:0xab74314>):
+  app/controllers/upload_controller.rb:29:in `block (2 levels) in show'
+  app/controllers/upload_controller.rb:28:in `block in show'
+  app/controllers/upload_controller.rb:27:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb607420 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1uydd5m>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 22:54:08 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb54e8e4 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1q3gq0h>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 22:58:54 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb23cee4 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1xgq0uk>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:00:03 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:00:46 -0700
+Processing by UploadController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+TypeError (can't convert nil into String):
+  app/controllers/upload_controller.rb:27:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb751bf0 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-ikg0ir>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:00:51 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb1b19c0 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-33ojlw>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:01:07 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0x9d71604 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1145b6s>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:01:32 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb3135ac @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1m3sjjj>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:02:24 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:03:43 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0x9d73684 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-ifu1k4>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:03:47 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb399544 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1blzn4v>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:04:10 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xa2c347c @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-znuc1u>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+[2012-06-20 23:05:21] ERROR bad Request-Line `'.
+[2012-06-20 23:05:25] ERROR bad Request-Line `'.
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:05:04 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:05:21 -0700
+Processing by UploadController#upload as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  app/controllers/upload_controller.rb:8:in `upload'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:05:25 -0700
+Processing by UploadController#upload as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  app/controllers/upload_controller.rb:8:in `upload'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/upload" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Processing by UploadController#index as HTML
+  Rendered upload/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+[2012-06-20 23:05:39] ERROR bad Request-Line `'.
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:05:32 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:05:39 -0700
+Processing by UploadController#upload as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  app/controllers/upload_controller.rb:8:in `upload'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:06:08 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb54ea4c @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-5s6hug>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /infoblox.css - 200 OK (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:06:09 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:09:37 -0700
+Processing by UploadController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+TypeError (can't convert nil into String):
+  app/controllers/upload_controller.rb:27:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb86fed8 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-104bf5g>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /vmware.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /account.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /nitro.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /upload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vmware.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /vmware.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/bullet.jpg" for 172.29.104.43 at 2012-06-20 23:09:42 -0700
+Served asset /images/bullet.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bullet.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/upload/upload" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"evoMwLCQe75e73enuflD3Z1wSW8LPKvjfC0WKe8JDeg=", "file"=>#<ActionDispatch::Http::UploadedFile:0xb2a38c4 @original_filename="test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"test.txt\"\r\nContent-Type: text/plain\r\n", @tempfile=#<File:/tmp/RackMultipart20120620-29220-1j2msa5>>, "commit"=>"Read"}
+Redirected to http://ayu7-linux:3000/upload/show
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/upload/show" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Processing by UploadController#show as HTML
+  Rendered upload/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /account.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nitro.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /nitro.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /ajax.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /infoblox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload.css?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /upload.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ajax.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /ajax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/infoblox.js?body=1" for 172.29.104.43 at 2012-06-20 23:09:57 -0700
+Served asset /infoblox.js - 304 Not Modified (0ms)

@@ -31,7 +31,7 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
     }
   }
-xmlhttp.open("GET","/uploads/test1.txt",true);
+xmlhttp.open("GET","/uploads/test2.txt",true);
 xmlhttp.send();
 }
 
